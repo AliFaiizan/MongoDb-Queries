@@ -1,3 +1,5 @@
+"mongo --host localhost -u user -p password --authenticationDatabase admin test"
+
 //use admin
 //db.auth('user','pwd')
 db.createUser({user:"ali",pwd:"ali",roles:["userAdminAnyDatabase"]})
